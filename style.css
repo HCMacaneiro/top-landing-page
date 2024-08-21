@@ -28,6 +28,7 @@ a {
     display:flex;
     flex-direction: column;
     padding: 20px 200px;
+    height: 450px;
 }
 
 .header .logo {
@@ -88,9 +89,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 100px;
-    gap: 30px;
+    padding-top: 60px;
+    gap: 60px;
+    height: 450px;
 }
 
 .content h2 {
@@ -114,4 +115,28 @@ a {
     border-radius: 10px;
     width: 175px;
     height: 200px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+    text-align: justify;
+}
+
+.author {
+    align-self:flex-end; 
+    margin-right: 550px;
+    font-weight: bold;
+    font-size: 20px;
 }
