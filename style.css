@@ -83,3 +83,29 @@ a {
     height: 200px;
     width: 450px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.card-section {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-section img {
+    border-radius: 10px;
+    width: 175px;
+    height: 200px;
+}
