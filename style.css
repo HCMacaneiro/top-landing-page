@@ -28,7 +28,7 @@ a {
     display:flex;
     flex-direction: column;
     padding: 20px 200px;
-    height: 450px;
+    height: 650px;
 }
 
 .header .logo {
@@ -55,8 +55,8 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    align-items: center;
+    height: 100%;
 }
 
 .hero .main-text h1 {
@@ -139,4 +139,40 @@ a {
     margin-right: 550px;
     font-weight: bold;
     font-size: 20px;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.banner {
+    background-color: #3882f6;
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner h1 {
+    color: #f9faf8;
+}
+
+.banner p {
+    color: #e5e7eb;
+}
+
+.banner button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 20px;
+    border-color: #f9faf8;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px 40px;
 }
