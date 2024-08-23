@@ -176,3 +176,13 @@ a {
     border-radius: 10px;
     padding: 10px 40px;
 }
+
+.footer {
+    height: 150px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 32px;
+}
